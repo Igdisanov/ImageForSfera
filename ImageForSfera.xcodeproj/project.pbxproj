@@ -60,19 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				5258E2DD2934D4BE0079A786 /* AppDelegate */,
-				5258E2DB2934D49F0079A786 /* Modules */,
 				5258E2DE2934D4CA0079A786 /* Resources */,
 				5258E2DC2934D4A80079A786 /* Supporting Files */,
 				5258E2DF2934D52E0079A786 /* LaunchScreen */,
 			);
 			path = ImageForSfera;
-			sourceTree = "<group>";
-		};
-		5258E2DB2934D49F0079A786 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		5258E2DC2934D4A80079A786 /* Supporting Files */ = {
