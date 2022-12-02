@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		5258E2C52934D4180079A786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C42934D4180079A786 /* AppDelegate.swift */; };
 		5258E2C72934D4180079A786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C62934D4180079A786 /* SceneDelegate.swift */; };
-		5258E2C92934D4190079A786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C82934D4190079A786 /* ViewController.swift */; };
-		5258E2CC2934D4190079A786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5258E2CA2934D4190079A786 /* Main.storyboard */; };
 		5258E2CF2934D4190079A786 /* ImageForSfera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */; };
 		5258E2D12934D41B0079A786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5258E2D02934D41B0079A786 /* Assets.xcassets */; };
 		5258E2D42934D41B0079A786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */; };
+		52D697E72939CD63009FD247 /* ImageSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 52D697E62939CD63009FD247 /* ImageSPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5258E2C12934D4180079A786 /* ImageForSfera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageForSfera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5258E2C42934D4180079A786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5258E2C62934D4180079A786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5258E2C82934D4190079A786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5258E2CB2934D4190079A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5258E2CE2934D4190079A786 /* ImageForSfera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageForSfera.xcdatamodel; sourceTree = "<group>"; };
 		5258E2D02934D41B0079A786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5258E2D32934D41B0079A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5258E2D52934D41B0079A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D697E52939CD44009FD247 /* ImageSPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImageSPM; path = ../ImageSPM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D697E72939CD63009FD247 /* ImageSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +41,10 @@
 		5258E2B82934D4180079A786 = {
 			isa = PBXGroup;
 			children = (
+				52D697E42939CD44009FD247 /* Packages */,
 				5258E2C32934D4180079A786 /* ImageForSfera */,
 				5258E2C22934D4180079A786 /* Products */,
+				52A5FB272937ACFB009F823E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +59,69 @@
 		5258E2C32934D4180079A786 /* ImageForSfera */ = {
 			isa = PBXGroup;
 			children = (
-				5258E2C42934D4180079A786 /* AppDelegate.swift */,
-				5258E2C62934D4180079A786 /* SceneDelegate.swift */,
-				5258E2C82934D4190079A786 /* ViewController.swift */,
-				5258E2CA2934D4190079A786 /* Main.storyboard */,
-				5258E2D02934D41B0079A786 /* Assets.xcassets */,
-				5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */,
+				5258E2DD2934D4BE0079A786 /* AppDelegate */,
+				5258E2DB2934D49F0079A786 /* Modules */,
+				5258E2DE2934D4CA0079A786 /* Resources */,
+				5258E2DC2934D4A80079A786 /* Supporting Files */,
+				5258E2DF2934D52E0079A786 /* LaunchScreen */,
+			);
+			path = ImageForSfera;
+			sourceTree = "<group>";
+		};
+		5258E2DB2934D49F0079A786 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5258E2DC2934D4A80079A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5258E2D52934D41B0079A786 /* Info.plist */,
 				5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */,
 			);
-			path = ImageForSfera;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5258E2DD2934D4BE0079A786 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5258E2C42934D4180079A786 /* AppDelegate.swift */,
+				5258E2C62934D4180079A786 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5258E2DE2934D4CA0079A786 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5258E2D02934D41B0079A786 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5258E2DF2934D52E0079A786 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		52A5FB272937ACFB009F823E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D697E42939CD44009FD247 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				52D697E52939CD44009FD247 /* ImageSPM */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +140,9 @@
 			dependencies = (
 			);
 			name = ImageForSfera;
+			packageProductDependencies = (
+				52D697E62939CD63009FD247 /* ImageSPM */,
+			);
 			productName = ImageForSfera;
 			productReference = 5258E2C12934D4180079A786 /* ImageForSfera.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +171,8 @@
 				Base,
 			);
 			mainGroup = 5258E2B82934D4180079A786;
+			packageReferences = (
+			);
 			productRefGroup = 5258E2C22934D4180079A786 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +189,6 @@
 			files = (
 				5258E2D42934D41B0079A786 /* LaunchScreen.storyboard in Resources */,
 				5258E2D12934D41B0079A786 /* Assets.xcassets in Resources */,
-				5258E2CC2934D4190079A786 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5258E2C92934D4190079A786 /* ViewController.swift in Sources */,
 				5258E2CF2934D4190079A786 /* ImageForSfera.xcdatamodeld in Sources */,
 				5258E2C52934D4180079A786 /* AppDelegate.swift in Sources */,
 				5258E2C72934D4180079A786 /* SceneDelegate.swift in Sources */,
@@ -151,14 +208,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5258E2CA2934D4190079A786 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5258E2CB2934D4190079A786 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,12 +342,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageForSfera/Info.plist;
+				INFOPLIST_FILE = "ImageForSfera/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,12 +371,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageForSfera/Info.plist;
+				INFOPLIST_FILE = "ImageForSfera/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +413,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52D697E62939CD63009FD247 /* ImageSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */ = {
