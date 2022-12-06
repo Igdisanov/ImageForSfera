@@ -49,8 +49,8 @@
 		5258E2B82934D4180079A786 = {
 			isa = PBXGroup;
 			children = (
-				520FE4DD293F2E570036CD7D /* Packages */,
 				5258E2C32934D4180079A786 /* ImageForSfera */,
+				520FE4DD293F2E570036CD7D /* Packages */,
 				5258E2C22934D4180079A786 /* Products */,
 				52A5FB272937ACFB009F823E /* Frameworks */,
 			);
