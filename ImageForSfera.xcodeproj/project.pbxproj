@@ -9,19 +9,17 @@
 /* Begin PBXBuildFile section */
 		5258E2C52934D4180079A786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C42934D4180079A786 /* AppDelegate.swift */; };
 		5258E2C72934D4180079A786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C62934D4180079A786 /* SceneDelegate.swift */; };
-		5258E2CF2934D4190079A786 /* ImageForSfera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */; };
 		5258E2D42934D41B0079A786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */; };
-		528C14812948DBA700F176C7 /* ImageSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 528C14802948DBA700F176C7 /* ImageSPM */; };
+		52E22F2D294B2BC800A1ABE9 /* ImageSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 52E22F2C294B2BC800A1ABE9 /* ImageSPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5258E2C12934D4180079A786 /* ImageForSfera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageForSfera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5258E2C42934D4180079A786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5258E2C62934D4180079A786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5258E2CE2934D4190079A786 /* ImageForSfera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageForSfera.xcdatamodel; sourceTree = "<group>"; };
 		5258E2D32934D41B0079A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5258E2D52934D41B0079A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		528C147F2948DB9F00F176C7 /* ImageSPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImageSPM; path = ../ImageSPM; sourceTree = "<group>"; };
+		52E22F2B294B2BBF00A1ABE9 /* ImageSPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImageSPM; path = ../ImageSPM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528C14812948DBA700F176C7 /* ImageSPM in Frameworks */,
+				52E22F2D294B2BC800A1ABE9 /* ImageSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +37,7 @@
 		5258E2B82934D4180079A786 = {
 			isa = PBXGroup;
 			children = (
-				528C147E2948DB9F00F176C7 /* Packages */,
+				52E22F2A294B2BBF00A1ABE9 /* Packages */,
 				5258E2C32934D4180079A786 /* ImageForSfera */,
 				5258E2C22934D4180079A786 /* Products */,
 				52A5FB272937ACFB009F823E /* Frameworks */,
@@ -58,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				5258E2DD2934D4BE0079A786 /* AppDelegate */,
-				5258E2DE2934D4CA0079A786 /* Resources */,
 				5258E2DC2934D4A80079A786 /* Supporting Files */,
 				5258E2DF2934D52E0079A786 /* LaunchScreen */,
 			);
@@ -69,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				5258E2D52934D41B0079A786 /* Info.plist */,
-				5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -83,13 +79,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		5258E2DE2934D4CA0079A786 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		5258E2DF2934D52E0079A786 /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,19 +87,19 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
-		528C147E2948DB9F00F176C7 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				528C147F2948DB9F00F176C7 /* ImageSPM */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		52A5FB272937ACFB009F823E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52E22F2A294B2BBF00A1ABE9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				52E22F2B294B2BBF00A1ABE9 /* ImageSPM */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +119,7 @@
 			);
 			name = ImageForSfera;
 			packageProductDependencies = (
-				528C14802948DBA700F176C7 /* ImageSPM */,
+				52E22F2C294B2BC800A1ABE9 /* ImageSPM */,
 			);
 			productName = ImageForSfera;
 			productReference = 5258E2C12934D4180079A786 /* ImageForSfera.app */;
@@ -187,7 +176,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5258E2CF2934D4190079A786 /* ImageForSfera.xcdatamodeld in Sources */,
 				5258E2C52934D4180079A786 /* AppDelegate.swift in Sources */,
 				5258E2C72934D4180079A786 /* SceneDelegate.swift in Sources */,
 			);
@@ -403,24 +391,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		528C14802948DBA700F176C7 /* ImageSPM */ = {
+		52E22F2C294B2BC800A1ABE9 /* ImageSPM */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ImageSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		5258E2CD2934D4190079A786 /* ImageForSfera.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5258E2CE2934D4190079A786 /* ImageForSfera.xcdatamodel */,
-			);
-			currentVersion = 5258E2CE2934D4190079A786 /* ImageForSfera.xcdatamodel */;
-			path = ImageForSfera.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5258E2B92934D4180079A786 /* Project object */;
 }
