@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "imagespm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Igdisanov/ImageSPM.git",
+      "state" : {
+        "revision" : "68fc7b685867eb5c7c1a604080085c8ccd9ff059",
+        "version" : "2.0.0"
+      }
+    },
+    {
       "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher.git",
