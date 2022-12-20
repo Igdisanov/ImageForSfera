@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import TabBarController
+import Modules
 import DataKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
