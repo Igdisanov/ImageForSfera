@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523BA905295251EC00B1C4D3 /* ImageSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 523BA904295251EC00B1C4D3 /* ImageSPM */; };
+		52201DE82952DE27007D0018 /* ImageSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 52201DE72952DE27007D0018 /* ImageSPM */; };
 		5258E2C52934D4180079A786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C42934D4180079A786 /* AppDelegate.swift */; };
 		5258E2C72934D4180079A786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258E2C62934D4180079A786 /* SceneDelegate.swift */; };
 		5258E2D42934D41B0079A786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5258E2D22934D41B0079A786 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523BA905295251EC00B1C4D3 /* ImageSPM in Frameworks */,
+				52201DE82952DE27007D0018 /* ImageSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +109,7 @@
 			);
 			name = ImageForSfera;
 			packageProductDependencies = (
-				523BA904295251EC00B1C4D3 /* ImageSPM */,
+				52201DE72952DE27007D0018 /* ImageSPM */,
 			);
 			productName = ImageForSfera;
 			productReference = 5258E2C12934D4180079A786 /* ImageForSfera.app */;
@@ -140,7 +140,7 @@
 			);
 			mainGroup = 5258E2B82934D4180079A786;
 			packageReferences = (
-				523BA903295251EC00B1C4D3 /* XCRemoteSwiftPackageReference "ImageSPM" */,
+				52201DE62952DE27007D0018 /* XCRemoteSwiftPackageReference "ImageSPM" */,
 			);
 			productRefGroup = 5258E2C22934D4180079A786 /* Products */;
 			projectDirPath = "";
@@ -382,21 +382,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		523BA903295251EC00B1C4D3 /* XCRemoteSwiftPackageReference "ImageSPM" */ = {
+		52201DE62952DE27007D0018 /* XCRemoteSwiftPackageReference "ImageSPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Igdisanov/ImageSPM.git";
 			requirement = {
 				kind = versionRange;
 				maximumVersion = 3.0.0;
-				minimumVersion = 2.0.0;
+				minimumVersion = 2.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		523BA904295251EC00B1C4D3 /* ImageSPM */ = {
+		52201DE72952DE27007D0018 /* ImageSPM */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 523BA903295251EC00B1C4D3 /* XCRemoteSwiftPackageReference "ImageSPM" */;
+			package = 52201DE62952DE27007D0018 /* XCRemoteSwiftPackageReference "ImageSPM" */;
 			productName = ImageSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
