@@ -6,8 +6,7 @@
 //
 
 import UIKit
-import Modules
-import DataKit
+import ImageForSferaPackege
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
