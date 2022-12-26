@@ -16,7 +16,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let ws = (scene as? UIWindowScene) else { return }
         let myWindow = UIWindow(windowScene: ws)
-        let tabBarController = TabBarConfigurator.configure(output: nil)
+        let context = TabBarContext()
+        let tabBar = TabBarContainer.assemble(with: context)
+        let tabBarController = tabBar.viewController
         myWindow.rootViewController = tabBarController
         
         self.window = myWindow

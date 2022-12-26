@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var coreData = CoreDataStack()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window?.rootViewController = TabBarConfigurator.configure(output: nil)
+        let context = TabBarContext()
+        let tabBar = TabBarContainer.assemble(with: context)
+        window?.rootViewController = tabBar.viewController
+        
         window?.makeKeyAndVisible()
         return true
     }
